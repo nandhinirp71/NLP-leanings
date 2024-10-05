@@ -52,6 +52,10 @@ Stages of Text Preprocessing:
 1. Tokenizing and case handling
 2. Stemming/Lemmatizing and stopwords handling
 3. Word to Vectors
+  a. Bag of Words
+  b. TF-IDF
+  c. Word2Vec
+
 
 
 

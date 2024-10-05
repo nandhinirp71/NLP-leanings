@@ -27,10 +27,10 @@ Consider a categorical variable color with the following categories: ["red", "bl
 Using one-hot encoding, this variable can be represented as:
 
 Color	   Red	 Blue	  Green
-----------------------------
+-------------------------------------------
 Red	     1	   0	    0
-Blue	   0	   1	    0
-Green	   0	   0	    1
+Blue	     0	   1	    0
+Green	     0	   0	    1
 
 For each unique category, a new binary column is created. In this case:
 
@@ -71,10 +71,10 @@ The unique words from both sentences form the vocabulary: ["I", "love", "playing
 Step 3: Word Representation
 Now represent each sentence as a vector based on the word occurrences in the vocabulary:
 
-            I	  love	playing	  watching	football
----------------------------------------------------
-Sentence1	  1	  1	    1	        0	        1
-Sentence2	  1	  1	    0	        1	        1
+              I	  love	playing	  watching	 football
+-----------------------------------------------------------------------
+Sentence1	  1	  1	 1	   0         1
+Sentence2	  1	  1	 0	   1	 1
 
 Here:
 Each sentence is a vector with 5 positions (one for each word in the vocabulary).
@@ -96,5 +96,7 @@ iv. Semantic meaning is not captured (Consine similarity is used to capture sema
 NOTE: 
 N-grams
 * N-grams is used to capture semantic meaning of corpus
+* group of words are used along with BOW
+* captures the word ordering
 
 

@@ -1,0 +1,14 @@
+Basic Teminologies Used in NLP
+
+1. Corpus
+Group of available text data points or it is also refereed to a paragraph of text.
+
+2. Documents
+Individual sentence in the data set.
+
+3. Vocabulary
+Total number of Unique words in the dataset.
+
+4. Words
+Individual words in the dataset.
+

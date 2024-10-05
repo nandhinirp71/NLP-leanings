@@ -1,4 +1,4 @@
-Basic Teminologies Used in NLP
+** Basic Teminologies Used in NLP **
 
 1. Corpus
 Group of available text data points or it is also refereed to a paragraph of text.
@@ -11,4 +11,37 @@ Total number of Unique words in the dataset.
 
 4. Words
 Individual words in the dataset.
+
+
+One Hot Encoding
+One-Hot Encoding is a technique used in machine learning and Natural Language Processing (NLP) to convert categorical variables (non-numeric data) into a numerical format that can be used in algorithms. It transforms each category into a binary vector, where:
+
+* 1 represents the presence of a specific category, and
+* 0 represents the absence of other categories.
+
+How One-Hot Encoding Works:
+Consider a categorical variable color with the following categories: ["red", "blue", "green"].
+
+Using one-hot encoding, this variable can be represented as:
+
+Color	 Red	 Blue	Green
+Red	   1	   0	  0
+Blue	 0	   1	  0
+Green	 0	   0	  1
+
+For each unique category, a new binary column is created. In this case:
+
+* "Red" is represented as [1, 0, 0],
+* "Blue" as [0, 1, 0],
+* "Green" as [0, 0, 1].
+
+Advantages of OHE:
+i. Simple to Implement
+ii. Intuitive (Easy to Understand)
+
+Disadvantages of OHE:
+i. Creates Sparse Matrix (matrix with more zeroes)
+
+
+Techniques for converting words to vectors:
 

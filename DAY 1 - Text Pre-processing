@@ -1,0 +1,52 @@
+Steps for Cleaning Text
+
+
+1. Tokenization
+Tokienization is converting sentence to words
+
+
+2. Removal of Stop words
+Stop words are commonly used words that are typically filtered out before processing text data. These words don't add significant meaning to the text and are often ignored in tasks like text analysis, information retrieval, or machine learning because they occur frequently and don’t contribute to the semantic meaning of the content.
+
+
+3. Stemming
+Stemming is a technique in Natural Language Processing (NLP) that reduces words to their base or root form, typically by removing suffixes. The goal of stemming is to normalize words that have the same meaning but appear in different forms, allowing text analysis to treat them as the same word.
+
+For example:
+
+a. "running", "runner", and "ran" could all be stemmed to "run".
+b. "happiness" and "happy" could be stemmed to "happi".
+
+Advantage of Stemming:
+i. Its really fast for hude dataset
+
+Disadvantage of Stemming:
+i. After stemming, the word sometimes become meaningless.
+
+Use Cases:
+i. Spam/comments/review classification
+
+
+4. Lemmatization
+In order to overcome the disadvantage of stemming, lemmatization is used.
+It has entire dictionary of words, and connects the words with exact base words.
+
+Advantage of Lemmatization:
+i. Meaning of the words is retained
+
+Disadvantage of Lemmatization:
+i. It is slow for huge data
+
+Use Cases:
+i. Text Summarization
+ii. Language translation
+iii. Chat bots
+
+
+NOTE: 
+i. Stemming can be skipped when using lemmatization
+ii. Stemming and Lemmatization can be skipped when working with Deep Learning
+
+
+
+

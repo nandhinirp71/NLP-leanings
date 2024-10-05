@@ -48,5 +48,11 @@ i. Stemming can be skipped when using lemmatization
 ii. Stemming and Lemmatization can be skipped when working with Deep Learning
 
 
+Stages of Text Preprocessing:
+1. Tokenizing and case handling
+2. Stemming/Lemmatizing and stopwords handling
+3. Word to Vectors
+
+
 
 
